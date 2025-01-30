@@ -10,7 +10,7 @@ from textblob import TextBlob
 from google.cloud import aiplatform
 
 # Initialize Google AI Platform with project ID
-key = "XXk-proj-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-N_94abEqfK0GXXXXXXXXXXXXXXXXXXXXXXXX1fOaNaypZFC0RKVcANsuuw_aMA"
+key = "XXk-proj-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-N_94aEqfK0GXXXXXXXXXXXXXXXXXXXXXXXX1fOaNaypZFC0RKVcANsuuw_aMA"
 location = "us-central1"  # Replace with your location if different
 
 aiplatform.init(project=key, location=location)
