@@ -5,7 +5,7 @@ import cv2
 import numpy as np
 import customtkinter
 from keras.models import load_model
-from keras.preprocessing.image import img_to_array
+from keras.preprocessing.image import img_to_array 
 import time  # for tracking time between updates
 
 # Initialize customtkinter settings
