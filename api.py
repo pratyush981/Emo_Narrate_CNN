@@ -78,7 +78,6 @@ def listen_to_speech():
             voice_text = recognizer.recognize_google(audio)
             voice_data.insert(tk.END, voice_text)
 
-            # Perform sentiment analysis on the recognized text
             analyze_sentiment(voice_text)
 
             # Get GPT response based on the recognized text
