@@ -39,7 +39,6 @@ mic_switch.place(x=10, y=400)
 voice_data = customtkinter.CTkTextbox(master=frame_1, width=500, height=100)
 voice_data.place(x=10, y=450)
 
-# Adding a label for displaying sentiment analysis
 sentiment_label = customtkinter.CTkLabel(master=frame_1, text="Sentiment: ", font=("Helvetica", 20))
 sentiment_label.place(x=10, y=600)
 
