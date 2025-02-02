@@ -42,7 +42,6 @@ voice_data.place(x=10, y=450)
 sentiment_label = customtkinter.CTkLabel(master=frame_1, text="Sentiment: ", font=("Helvetica", 20))
 sentiment_label.place(x=10, y=600)
 
-# Adding a label for displaying GPT predictions
 gpt_label = customtkinter.CTkLabel(master=frame_1, text="GPT Response: ", font=("Helvetica", 20))
 gpt_label.place(x=10, y=700)
 
