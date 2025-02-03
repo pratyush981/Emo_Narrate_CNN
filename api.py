@@ -55,7 +55,7 @@ face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 # Function to toggle microphone and perform speech recognition
 def toggle_microphone():
     if mic_switch_value.get():
-        # Microphone is turned on, start listening
+        
         threading.Thread(target=listen_to_speech).start()
     else:
         # Microphone is turned off, clear the text box
