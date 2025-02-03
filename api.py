@@ -45,7 +45,6 @@ sentiment_label.place(x=10, y=600)
 gpt_label = customtkinter.CTkLabel(master=frame_1, text="GPT Response: ", font=("Helvetica", 20))
 gpt_label.place(x=10, y=700)
 
-# Adding a label for displaying generated story
 story_label = customtkinter.CTkLabel(master=frame_1, text="Generated Story: ", font=("Helvetica", 20))
 story_label.place(x=10, y=800)
 
