@@ -48,7 +48,6 @@ gpt_label.place(x=10, y=700)
 story_label = customtkinter.CTkLabel(master=frame_1, text="Generated Story: ", font=("Helvetica", 20))
 story_label.place(x=10, y=800)
 
-# Load pre-trained model and cascade classifier
 classifier = load_model('model.h5')
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
