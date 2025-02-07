@@ -31,7 +31,6 @@ frame_1.pack(pady=20, padx=60, fill="both", expand=True)
 video_label = customtkinter.CTkLabel(master=frame_1)
 video_label.pack(anchor='nw')  # Use 'nw' anchor to place the video frame in the top left corner
 
-# Create a label for displaying the emotion
 emotion_label = customtkinter.CTkLabel(master=frame_1, text="Emotions: ", font=("Helvetica", 20))
 emotion_label.place(x=700, y=0)
 
